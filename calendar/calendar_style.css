@@ -1,0 +1,57 @@
+table {
+	border-collapse: collapse;
+	margin: 10px;
+}
+
+caption {
+	color: #708090;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 3px;
+	text-align: center;
+}
+
+td.active {
+	cursor: pointer;
+}
+
+td.active:hover {
+	background: #E6E6FA;
+}
+
+th {
+	font-weight: bold;
+	background-color: #E6E6E6;
+}
+
+.arrow {
+	display: inline-block;
+	width: 10px;
+	height: 14px;
+	cursor: pointer;
+}
+
+.previous {
+	float: left;
+	background: url(arrows_previous.png) no-repeat;
+	
+}
+
+.next {
+	float: right;
+	background: url(arrows_next.png) no-repeat;
+}
+
+.not_active {
+	color: #CDC9C9;
+}
+
+#calendar,
+#calendar2 {
+	width: 180px;
+	height: 225px;
+	margin: 5px;
+}
